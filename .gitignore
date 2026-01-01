@@ -1,0 +1,33 @@
+# Hugo build output
+/public/
+/resources/
+static/css/output.css
+/hugo_stats.json
+.hugo_build.lock
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE / editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# Node & build tooling
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Log files
+*.log
+npm-debug.log*
+
+# Optional: if you use Netlify or other deploy service
+.netlify/
