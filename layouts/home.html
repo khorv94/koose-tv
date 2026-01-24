@@ -1,10 +1,4 @@
 {{ define "main" }}
   {{ .Content }}
   {{ partial "home/twitch.html" }}
-  {{ range site.RegularPages }}
-    <section>
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      {{ .Summary }}
-    </section>
-  {{ end }}
 {{ end }}

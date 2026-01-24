@@ -2,3 +2,34 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'koose.tv'
 theme = 'base'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'Events'
+    pageRef = '/events'
+    weight = 20
+
+  [[menus.main]]
+    name = 'Blog'
+    pageRef = '/blog'
+    weight = 30
+
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 40
+
+  [[menus.main]]
+    name = 'Contact'
+    pageRef = '/contact'
+    weight = 50
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = '0.146.0'
