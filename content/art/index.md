@@ -5,3 +5,4 @@ draft = false
 layout = 'art'
 +++
 
+Art Page Content

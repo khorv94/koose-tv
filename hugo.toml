@@ -10,13 +10,13 @@ theme = 'base'
     weight = 10
 
   [[menus.main]]
-    name = 'Events'
-    pageRef = '/events'
+    name = 'Art'
+    pageRef = '/art'
     weight = 20
 
   [[menus.main]]
-    name = 'Blog'
-    pageRef = '/blog'
+    name = 'VODs'
+    pageRef = '/vods'
     weight = 30
 
   [[menus.main]]
